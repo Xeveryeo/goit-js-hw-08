@@ -20,6 +20,6 @@ player
       case 'RangeError':
         break;
       default:
-        break;1
+        break;
     }
   });
