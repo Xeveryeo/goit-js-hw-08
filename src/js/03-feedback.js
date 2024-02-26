@@ -23,7 +23,7 @@ function onFormInput() {
 onPageReload();
 
 function onPageReload() {
-  const savedMessage = JSON.parse(localStorage.getItem(STORAGE_KEY)); // "{email, message}"
+  const savedMessage = JSON.parse(localStorage.getItem(STORAGE_KEY));
   if (savedMessage) {
     emailEl.value = savedMessage.email;
     messageEl.value = savedMessage.message;
